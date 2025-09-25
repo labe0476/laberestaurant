@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: oklch(37.3% 0.034 259.733);
+ 
+  }
+
+.navbar {
+  display: flex;
+  height: 80px;
+  background-color: oklch(37.3% 0.034 259.733);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.logo {
+  padding: 25px;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 45px;
+  color:white;
+}
+.page {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+.navlink {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+.navlink a {
+  text-decoration: none;
+  color: rgb(231, 229, 223);
+}
+.bgimage {
+  background: url(bgimage.jpeg);
+  width: 100%;
+  height: 700px;
+  background-position: cover;
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+.text {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  width: 100%;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 35px;
+}
+.menu h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+.menu h2 {
+  color: white;
+  font-size: 20px;
+}
+.menu p {
+  color: white;
+  font-size: 15px;
+}
+img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.menu-base {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.food {
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  border: 20px solid #0e0d0d2f;
+}
+
+.mainabout {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+.about h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+.about  div h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.about div p {
+  text-align: center;
+  color: black;
+}
+.aboutus {
+  margin: 20px;
+  padding: 20px;
+}
+.about h3 {
+  text-align: center;
+  color: (0, 0%, 100%, 0.122));
+  margin: 10px;
+  font-size: 25px;
+}
+.contact h1{
+ text-align: center;
+  color: white;
+  font-size: 35px;
+} 
+.contact p {
+  text-align: center;
+  color: (0, 0%, 100%, 0.322);
+  font-size: 25px;
+}
+.contactus p{
+  text-align: left;
+  color: black;
+  font-size: 15px;
+}
+.maincontact{
+  display: flex;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  justify-content: space-around;
+
+}
+
+form{
+  border-radius: 20px;
+  border: 20px solid #0e0d0d2f;
+  margin: 10px;
+ 
+}
+button {
+  width: 100%;
+  color: white;
+  background-color: oklch(37.3% 0.034 259.733);
+  border-radius: 15px;
+}
+input {
+  width: 100%;
+  border-radius: 3px;
+  background: grey;
+  
+}
+textarea {
+  width: 100%;
+  border-radius: 3px;
+  background: grey;
+}
+.contactus{
+  margin: 50px;
+}
+.maincontact h2{
+  color: white;
+}
+
+section{
+  padding: 50px;
+}
+section .about{
+  background: oklch(54.966% 0.01447 255.632);
+}
+
+
